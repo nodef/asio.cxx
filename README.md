@@ -1,4 +1,4 @@
-Super-project for modularized Boost; Dawes et al. (1998).
+Asio C++ Library; chriskohlhoff (2003).
 
 Visit https://think-async.com/ or see packaged doc/index.html for API
 documentation and a tutorial.
@@ -11,7 +11,7 @@ Run:
 $ npm i asio.cxx
 ```
 
-And then include `asio.cxx` as follows:
+And then include `asio.hpp` as follows:
 ```c
 #include "node_modules/asio.cxx/boost/asio.hpp"
 ```
