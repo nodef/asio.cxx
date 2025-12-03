@@ -1,0 +1,29 @@
+{
+  "name": "asio.cxx",
+  "version": "0.0.1",
+  "description": "Asio C++ Library; chriskohlhoff (2003).",
+  "keywords": [
+    "cxx",
+    "library",
+    "boost",
+    "asio"
+  ],
+  "homepage": "https://github.com/nodef/asio.cxx#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/asio.cxx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/asio.cxx.git"
+  },
+  "license": "BSL-1.0",
+  "author": "wolfram77@gmail.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "exit"
+  }
+}
