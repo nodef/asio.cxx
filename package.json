@@ -1,12 +1,19 @@
 {
   "name": "asio.cxx",
-  "version": "1.36.0",
+  "version": "1.36.1",
   "description": "Asio C++ Library; chriskohlhoff (2003).",
   "keywords": [
     "cxx",
     "library",
     "boost",
-    "asio"
+    "asio",
+    "network",
+    "tcp",
+    "udp",
+    "socket",
+    "http",
+    "async",
+    "io"
   ],
   "homepage": "https://github.com/nodef/asio.cxx#readme",
   "bugs": {
@@ -18,11 +25,7 @@
   },
   "license": "BSL-1.0",
   "author": "wolfram77@gmail.com",
-  "type": "commonjs",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "exit"
   }

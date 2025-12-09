@@ -12,8 +12,34 @@ $ npm i asio.cxx
 ```
 
 And then include `asio.hpp` as follows:
-```c
+```cxx
+// main.cxx
 #include "node_modules/asio.cxx/boost/asio.hpp"
+
+int main() { /* ... */ }
+```
+
+And then compile with `clang++` or `g++` as usual.
+
+```bash
+$ clang++ main.cxx  # or, use g++
+$ g++     main.cxx
+```
+
+You may also use a simpler approach:
+
+```cxx
+// main.cxx
+#include <boost/asio.hpp>
+
+int main() { /* ... */ }
+```
+
+If you add the path `node_modules/asio.cxx` to your compiler's include paths.
+
+```bash
+$ clang++ -I./node_modules/asio.cxx main.cxx  # or, use g++
+$ g++     -I./node_modules/asio.cxx main.cxx
 ```
 
 <br>
