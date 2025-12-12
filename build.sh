@@ -6,14 +6,14 @@ DIR="${ZIP%.zip}"
 mkdir -p .build
 cd .build
 
-# Download the boost release
+# Download the release
 if [ ! -f "$ZIP" ]; then
   echo "Downloading $ZIP from $URL ..."
   curl -L "$URL" -o "$ZIP"
   echo ""
 fi
 
-# Unzip the boost release
+# Unzip the release
 if [ ! -d "$DIR" ]; then
   echo "Unzipping $ZIP to .build/$DIR ..."
   cp "$ZIP" "$ZIP.bak"
